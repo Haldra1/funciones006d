@@ -19,9 +19,9 @@ while True:
         print("Error: Ingrese numeros")
 while True:
     try:
-        stock=int(input("Ingrese el precio del producto: \n"))
+        stock=int(input("Ingrese el stock del producto: \n"))
         if precio< 0:
-            print("Error: El precio ingresado es incorrecto ")
+            print("Error: No puede ser un numero negativo ")
         else:
             break
     except ValueError:
